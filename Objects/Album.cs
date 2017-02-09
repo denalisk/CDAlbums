@@ -35,29 +35,29 @@ namespace Album.Object
         {
             _albumName = albumName;
         }
-        public string GetArtist()
+        public int GetYear()
         {
-            return _artist;
+            return _year;
         }
-        public void SetArtist(string artist)
+        public void SetYear(int year)
         {
-            _artist = artist;
+            _year = year;
         }
-        public string GetArtist()
+        public string GetGenre()
         {
-            return _artist;
+            return _genre;
         }
-        public void SetArtist(string artist)
+        public void SetGenre(string genre)
         {
-            _artist = artist;
+            _genre = genre;
         }
-        public string GetArtist()
+        public Dictionary<int, string> GetTrackList()
         {
-            return _artist;
+            return _trackList;
         }
-        public void SetArtist(string artist)
+        public void SetTrackList(Dictionary<int, string> trackList)
         {
-            _artist = artist;
+            _trackList = trackList;
         }
     }
 }
