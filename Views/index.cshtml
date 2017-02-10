@@ -1,0 +1,13 @@
+@{
+    Layout="Shared/_Layout.cshtml";
+}
+
+<h2>Add an album:</h2>
+<form id="album-form" class="" action="/add-album" method="post">
+    <label for="artist"><input type="text" name="artist" value="">Artist</label>
+    <label for="album-name"><input type="text" name="album-name" value="">Album</label>
+    <label for="year"><input type="text" name="year" value="">Year</label>
+    <label for="genre"><input type="text" name="genre" value="">Genre</label>
+    <label for="track-list"><input type="text" name="track-list" value=""></label>
+    <button type="submit" name="button">Add Album</button>
+</form>

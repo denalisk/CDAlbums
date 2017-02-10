@@ -1,0 +1,12 @@
+@{
+    Layout = "Shared/_Layout.cshtml";
+}
+
+@foreach (var item in Model.Keys)
+{
+    <h1>@item</h1>
+    @foreach (var value in Model[item])
+    {
+        <h2>@value</h2>
+    }
+}
